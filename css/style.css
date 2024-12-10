@@ -1,3 +1,10 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+  margin: 0;
+}
+
 .team-member-info .social-media-icons {
   display: flex;
   justify-content: center;
