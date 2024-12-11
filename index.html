@@ -482,9 +482,9 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop" id="modal-backdrop">
+    <div class="backdrop">
       <div class="modal">
-        <button class="modal-close" aria-label="Close modal">
+        <button type="button" class="modal-close" aria-label="Close modal">
           <svg class="icon-modal-close" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
@@ -492,12 +492,12 @@
         <p class="modal-text">Leave your contacts and we will call you back</p>
         <form class="modal-form">
           <div class="modal-form-wrapper">
-            <label class="modal-label"> Name </label>
+            <label for="user-name" class="modal-label"> Name </label>
             <div class="modal-form-input-wrapper">
               <input
                 class="modal-form-input"
                 type="text"
-                name="name"
+                name="user-name"
                 aria-label="name"
                 required
               />
@@ -507,12 +507,12 @@
             </div>
           </div>
           <div class="modal-form-wrapper">
-            <label class="modal-label"> Phone </label>
+            <label for="user-phone" class="modal-label"> Phone </label>
             <div class="modal-form-input-wrapper">
               <input
                 class="modal-form-input"
                 type="tel"
-                name="phone"
+                name="user-phone"
                 aria-label="phone"
                 required
               />
@@ -522,12 +522,12 @@
             </div>
           </div>
           <div class="modal-form-wrapper">
-            <label class="modal-label"> Email </label>
+            <label for="user-email" class="modal-label"> Email </label>
             <div class="modal-form-input-wrapper">
               <input
                 class="modal-form-input"
                 type="email"
-                name="email"
+                name="user-email"
                 aria-label="email"
                 required
               />
@@ -537,21 +537,27 @@
             </div>
           </div>
           <div class="modal-textarea-wrapper">
-            <label class="modal-label"> Comment </label>
+            <label for="user-comment" class="modal-label"> Comment </label>
             <textarea
+              id="user-comment"
+              name="user-comment"
               class="modal-form-textarea"
               name="comment"
               placeholder="Text input"
             ></textarea>
           </div>
           <div class="modal-policy-wrapper">
+            <input
+              id="user-privacy"
+              type="checkbox"
+              value="true"
+              name="user-privacy"
+              class="visually-hidden"
+              type="checkbox"
+              name="terms"
+              required
+            />
             <label class="modal-checkbox-wrapper">
-              <input
-                class="visually-hidden"
-                type="checkbox"
-                name="terms"
-                required
-              />
               <span class="custom-checkbox">
                 <svg class="icon icon-checkbox" width="16" height="16">
                   <use href="./images/icons.svg#icon-dede"></use>
