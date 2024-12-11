@@ -678,12 +678,6 @@ p {
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.is-hidden {
-  opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
-}
-
 .modal {
   position: absolute;
   top: 50%;
@@ -735,25 +729,14 @@ p {
   fill: #ffffff;
 }
 
+.modal-close:focus .icon-modal-close {
+  fill: #ffffff;
+}
+
 .icon-modal-close {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: fill;
   fill: rgb(46, 47, 66);
-}
-
-.icon-modal-close:hover {
-  fill: #ffffff;
-}
-.icon-modal-close:focus {
-  fill: #ffffff;
-}
-
-.modal-form-input:focus + .icon-modal {
-  fill: #ffffff;
-}
-
-.modal-form-input:hover + .icon-modal {
-  fill: #ffffff;
 }
 
 .modal-text {
