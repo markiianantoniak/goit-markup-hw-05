@@ -672,6 +672,7 @@ p {
   /* opacity: 0;
   visibility: hidden; */
   height: 100%;
+  pointer-events: none;
   background-color: rgba(46, 47, 66, 0.4);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -738,6 +739,13 @@ p {
   fill: #ffffff;
 }
 .icon-modal-close:focus {
+  fill: #ffffff;
+}
+
+.icon-modal-close:hover + svg {
+  fill: #ffffff;
+}
+.icon-modal-close:focus + svg {
   fill: #ffffff;
 }
 
