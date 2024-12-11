@@ -796,7 +796,7 @@ p {
 }
 
 .modal-textarea-wrapper {
-  margin-bottom: 15px;
+  margin-bottom: 16px;
 }
 
 .modal-form-textarea {
@@ -809,6 +809,7 @@ p {
   padding: 8px 16px;
   outline: transparent;
   resize: none;
+  border-radius: 4px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   padding: 8px 16px;
@@ -840,7 +841,6 @@ p {
   align-items: center;
   justify-content: center;
   fill: transparent;
-  bottom: 3px;
   width: 16px;
   height: 16px;
   margin-right: 8px;
@@ -853,14 +853,11 @@ p {
 
 input[type="checkbox"]:checked + .modal-checkbox-wrapper > .custom-checkbox {
   border-color: transparent;
-  background-color: #404bbf;
+  background-color: var(--purple);
   border: none;
-  fill: #f4f4fd;
+  fill: var(--white);
 }
 
-input:checked + label .custom-checkbox .icon-checkbox {
-  fill: var(--custom-fill-color, #f4f4fd);
-}
 .modal-privacy-policy {
   color: #4d5ae5;
   text-decoration: underline solid;
