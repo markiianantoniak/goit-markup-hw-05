@@ -742,13 +742,6 @@ p {
   fill: #ffffff;
 }
 
-.icon-modal-close:hover + svg {
-  fill: #ffffff;
-}
-.icon-modal-close:focus + svg {
-  fill: #ffffff;
-}
-
 .modal-text {
   display: flex;
   justify-content: center;
