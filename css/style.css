@@ -741,6 +741,14 @@ p {
   fill: #ffffff;
 }
 
+.modal-form-input:focus + .icon-modal {
+  fill: #ffffff;
+}
+
+.modal-form-input:hover + .icon-modal {
+  fill: #ffffff;
+}
+
 .modal-text {
   display: flex;
   justify-content: center;
