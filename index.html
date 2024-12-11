@@ -498,6 +498,7 @@
                 class="modal-form-input"
                 type="text"
                 name="user-name"
+                id="user-name"
                 aria-label="name"
                 required
               />
@@ -513,6 +514,7 @@
                 class="modal-form-input"
                 type="tel"
                 name="user-phone"
+                id="user-name"
                 aria-label="phone"
                 required
               />
@@ -528,6 +530,7 @@
                 class="modal-form-input"
                 type="email"
                 name="user-email"
+                id="user-name"
                 aria-label="email"
                 required
               />
@@ -557,9 +560,9 @@
               name="terms"
               required
             />
-            <label class="modal-checkbox-wrapper">
+            <label for="user-privacy" class="modal-checkbox-wrapper">
               <span class="custom-checkbox">
-                <svg class="icon icon-checkbox" width="16" height="16">
+                <svg class="icon icon-checkbox" width="10" height="8">
                   <use href="./images/icons.svg#icon-dede"></use>
                 </svg>
               </span>
@@ -567,9 +570,7 @@
               <a class="modal-privacy-policy">Privacy Policy</a>
             </label>
           </div>
-          <div class="modal-submit-button-wrapper">
-            <button type="submit" class="submit-button">Send</button>
-          </div>
+          <button type="submit" class="submit-button">Send</button>
         </form>
       </div>
     </div>
