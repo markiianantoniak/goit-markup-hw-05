@@ -739,13 +739,6 @@ p {
   transition-property: fill;
 }
 
-.icon-modal-close:hover {
-  fill: #ffffff;
-}
-.icon-modal-close:focus {
-  fill: #ffffff;
-}
-
 .modal-text {
   display: flex;
   justify-content: center;
