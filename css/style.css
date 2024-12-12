@@ -739,6 +739,11 @@ p {
   transition-property: fill;
 }
 
+.modal-close:hover .icon-modal-close,
+.modal-close:focus .icon-modal-close {
+  fill: #ffffff;
+}
+
 .modal-text {
   display: flex;
   justify-content: center;
@@ -801,14 +806,6 @@ p {
 
 .modal-form-input:focus + .icon-modal {
   fill: #4d5ae5;
-}
-
-.modal-close:focus + .icon-modal {
-  fill: #ffffff;
-}
-
-.modal-close:hover + .icon-modal {
-  fill: #ffffff;
 }
 
 .modal-textarea-wrapper {
